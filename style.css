@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Inter';
+}
+
+body {
+    background-image: linear-gradient(to bottom, #1f1f1fef, #1f1f1fef), url(img/4931868.jpg);
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 5vh auto 0 auto;
+}
+
+.info1 {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#container {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    margin: 5% auto;
+    width: 100%;
+    height: 35vh;
+}
+
+.boxLinks {
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid white;
+    background: #252525;
+    width: 20%;
+    height: 100%;
+    transition: transform .1s ease, background .3s ease, color .3s ease, border .3s ease;
+}
+
+.boxLinks:hover {
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#Sobre {
+    padding: 20px;
+    border-radius: 25px;
+    background: #0f0f0f;
+    height: 100vh;
+    margin: 15% auto 5% auto;
+    position: relative;
+}
+
+#pfp {
+    margin: 0% 5% 0% 5%;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 5px solid rgb(255, 255, 255);
+    width: 20%;
+    height: 40%;
+    background-image: url(img/perfil.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#intro-sobre,
+#info-sobre {
+    font-weight: 300;
+    color: white;
+    margin-left: 5%;
+    width: 30%;
+}
+
+#intro-sobre {
+    font-size: 2rem;
+}
+
+#info-sobre {
+    text-align: justify;
+    bottom: 50px;
+    position: relative;
+    font-size: 1rem;
+    width: 40%;
+}
+
+.title-page {
+    cursor: default;
+    font-weight: 300;
+    color: white;
+    right: 5%;
+    top: 5%;
+    position: absolute;
+}
+
+.subtitle-page {
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    right: 5%;
+    bottom: 5%;
+    position: absolute;
+}
+
+#Formação {
+    border-radius: 25px;
+    background: #0f0f0f;
+    padding: 20px;
+    margin: auto auto 5% auto;
+    position: relative;
+}
+
+#top-formacao {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+#imgUninter {
+    flex-direction: column;
+    display: flex;
+    background: #1f1f1f;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#imgUninter h2 {
+    font-size: 1.5rem;
+    color: white;
+    align-items: center;
+    position: static;
+    text-align: center;
+}
+
+#info-formacao {
+    margin: 0 2%;
+    text-align: justify;
+    font-size: 1rem;
+    color: white;
+    width: 30%;
+    height: fit-content;
+}
+
+#cursos {
+    margin-top: 5%;
+    width: 50%;
+    font-weight: 300;
+    color: white;
+}
+
+#cursos h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+
+#Projetos {
+    position: relative;
+    padding: 20px;
+    border-radius: 25px;
+    background: #0f0f0f;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerProjeto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.projetosBox {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    width: 70%;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    position: relative;
+    transition: transform .2s ease;
+}
+
+.projetosBox:hover {
+    transform: scale(1.05);
+}
+
+.projetosBox h2 {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    background: #0f0f0faf;
+}
+
+.projetosBox a {
+    color: white;
+}
+
+#projeto1 {
+    background-image: url('img/Site1.png');
+    background-size: cover;
+}
+
+#projeto2 {
+    background-image: url('img/iPhone-12-Pro-1.webp');
+}
+
+#projeto3 {
+    background-image: url('img/Mountain.jpg');
+}
+
+#projeto4 {
+    background-image: url('img/Por\ vir.png');
+}
+
+#Contato {
+    padding: 20px;
+    border-radius: 25px;
+    background: #0f0f0f;
+    margin: 5% auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+#Contato h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contatoForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatoForm label {
+    color: white;
+    margin: 10px 0 5px;
+}
+
+.contatoForm input,
+.contatoForm textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0f0f0f;
+    margin-bottom: 10px;
+}
+
+.contatoForm button {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contatoForm button:hover {
+    color: black;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    background: #1f1f1fef;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: #ffffff;
+}

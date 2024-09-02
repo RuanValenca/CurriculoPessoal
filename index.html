@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Ruan Carlos</h1>
+    <br>
+    <p class="info1">20 anos <br> Estudante de Análise e Desenvolvimento de Sistemas <br> Uninter </p>
+
+    <div id="container">
+        <a class="boxLinks" href="#Sobre">
+            <div>
+                <h3 class="linksInternos">Sobre Mim</h3>
+            </div>
+        </a>
+        <a class="boxLinks" href="#Formação">
+            <div>
+                <h3 class="linksInternos">Formação</h3>
+            </div>
+        </a>
+        <a class="boxLinks" href="#Projetos">
+            <div>
+                <h3 class="linksInternos">Projetos</h3>
+            </div>
+        </a>
+        <a class="boxLinks" href="#Contato">
+            <div>
+                <h3 class="linksInternos">Contato</h3>
+            </div>
+        </a>
+    </div>
+
+    <section id="Sobre">
+        <div id="pfp"></div>
+        <br>
+        <h2 id="intro-sobre">Olá,</h2>
+        <br>
+        <p id="info-sobre">
+            Me chamo Ruan, tenho 20 anos e estou cursando Análise e Desenvolvimento de Sistemas.
+            Adoro música,
+            jogos e filmes, e estou sempre em busca de novas oportunidades para aprender.
+            <br><br>
+            Experiência:
+            Estágio em Help Desk Set. 2023 - 06/2024
+            SERVCOM - Serviços de Computação
+            <br>
+            • Conferência e manutenção de backup em nuvem;
+            <br>
+            • Espelhamento em servidores;<br>
+            • Suporte nível 1 em demandas de tecnologia;<br>
+            • Configuração e instalação de banco de dados. </p>
+
+        <h2 class="title-page">Sobre mim</h2>
+
+        <a href="#Formação">
+            <h3 class="subtitle-page">Próximo ↓</h3>
+        </a>
+    </section>
+
+    <section id="Formação">
+        <div id="top-formacao">
+            <div id="imgUninter"><img src="img/uninter-removebg-preview.png" alt="Uninter">
+                <h2>Uninter</h2>
+            </div>
+            <p id="info-formacao">Atualmente estou cursando Análise e Desenvolvimento de Sistemas na faculdade Uninter.
+                <br>
+                <br>
+                O curso abrange programação, bancos de dados,
+                engenharia de software, redes e segurança da informação, e combina teoria e prática para preparar
+                os alunos para diversas áreas da tecnologia.
+            </p>
+        </div>
+
+        <div id="cursos">
+            <p>
+                Idiomas: Inglês - Intermediário
+                <br>
+            <h5>
+                Formação Node.js
+                Udemy
+            </h5>
+            <br> • Node.js, MySQL, Javascript avançado, APIs.
+            <br>
+            <h5>
+                JavaScript e TypeScript do básico ao avançado
+                Udemy
+            </h5>
+            <br> • Lógica de programação com JS, programação web com Node.js e expressão regular com JS.
+            <br>
+            <h5>
+                HTML5 e CSS5
+                Curso em Vídeo
+            </h5>
+            <br> • Estrutura básica, tags semânticas, formulários.
+            • Seletores, box model, transições e animações, layout responsivo.
+            <br>
+            <h5>
+                PHP básico
+                Curso em Vídeo
+            </h5>
+            <br> • Variáveis, operadores, integração HTML + PHP, vetores e matrizes.
+            </p>
+        </div>
+
+        <h2 class="title-page">Formação</h2>
+
+        <a href="#Projetos">
+            <h3 class="subtitle-page">Próximo ↓</h3>
+        </a>
+    </section>
+
+    <section id="Projetos">
+        <div id="containerProjeto">
+            <div class="projetosBox" id="projeto1"><h2><a target="_blank" href="https://viajebem-ruan-carlos-projects.vercel.app/">Viaje bem</a></h2></div>
+            <div class="projetosBox" id="projeto2"><h2><a target="_blank" href="https://github.com/RuanValenca">Apple Store</a></h2></div>
+            <div class="projetosBox" id="projeto3"><h2><a target="_blank" href="https://github.com/RuanValenca">Mountain</a></h2></div>
+            <div class="projetosBox" id="projeto4"><h2><a target="_blank" href="https://github.com/RuanValenca">Por vir...</a></h2></h2></div>
+        </div>
+
+        <h2 class="title-page">Projetos</h2>
+
+        <a href="#Contato">
+            <h3 class="subtitle-page">Próximo ↓</h3>
+        </a>
+    </section>
+
+    <section id="Contato">
+        <h2>Contato</h2>
+        <form action="mailto:ruangobira@gmail.com" method="POST" enctype="text/plain" class="contatoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
